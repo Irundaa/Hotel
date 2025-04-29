@@ -28,11 +28,9 @@ public class BookingManagerTest {
         assertTrue(bookingManager.checkRoomAvailability("A"));
     }
 
-
     @Test
     public void checkRoomAvailableFalse() throws SQLException {
         assertFalse(bookingManager.checkRoomAvailability("D"));
     }
-
 
 }
